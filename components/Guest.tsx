@@ -6,7 +6,7 @@ const Guest = () => {
       {/* Hero Section */}
       <div className="flex flex-col md:flex-row items-center justify-between p-3 md:p-16 bg-gray-100 pt-20">
         <div className="flex-1 mb-8 xl:pl-10">
-          <h1 className="text-2xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">
+          <h1 className="text-2xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-orange-400 to-orange-800 bg-clip-text text-transparent">
             Welcome to SleepTracker
           </h1>
           <p className="md:text-xl mb-6">
@@ -14,7 +14,7 @@ const Guest = () => {
             with SleepTracker.
           </p>
           <SignInButton>
-            <button className="w-full md:w-auto bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 hover:from-purple-600 hover:via-pink-600 hover:to-red-600 text-white px-4 py-2 rounded-md font-medium cursor-pointer">
+            <button className="w-full md:w-auto bg-gradient-to-l from-orange-400 to-orange-800 hover:from-orange-400 hover:to-orange-800 text-white px-4 py-2 rounded-md font-medium cursor-pointer">
               Get Started
             </button>
           </SignInButton>
@@ -75,14 +75,14 @@ const Guest = () => {
               &quot;SleepTracker has completely transformed my sleep schedule. I
               feel more energized every day!&quot;
             </p>
-            <p className="text-purple-500 font-bold">- Sarah L.</p>
+            <p className="text-orange-800 font-bold">- Sarah L.</p>
           </div>
           <div className="bg-white p-6 rounded-md shadow">
             <p className="text-gray-700 mb-4">
               &quot;The insights from SleepTracker have helped me identify and
               fix my sleep issues. Highly recommend it!&quot;
             </p>
-            <p className="text-purple-500 font-bold">- John D.</p>
+            <p className="text-orange-800 font-bold">- John D.</p>
           </div>
           <div className="bg-white p-6 rounded-md shadow">
             <p className="text-gray-700 mb-4">
@@ -90,7 +90,9 @@ const Guest = () => {
               It&#39;s a must-have for anyone looking to improve their
               sleep!&quot;
             </p>
-            <p className="text-purple-500 font-bold">- Emily R.</p>
+            <p className="text-orange-800 font-bold">
+              - Emily R.
+            </p>
           </div>
         </div>
       </div>
